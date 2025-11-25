@@ -83,14 +83,31 @@ driver.quit()
 
 ```
 Antidetect-browser/
-├── create_profile.py      # Create new profiles
-├── open_profile.py        # Open and manage profiles
-├── generator.py           # GoLogin core engine
-├── fonts.json            # System fonts list
-├── temp/                 # Profiles directory
-│   ├── profile_id/       # Profile folder
-│   └── profile_id.zip    # Compressed profile
-└── .gologin/            # Orbita browser files
+├── create_profile.py           # Create new profiles
+├── open_profile.py             # Open and manage profiles
+├── generator.py                # GoLogin core engine
+├── fonts.json                  # System fonts list
+│
+├── fingerprints/               # Fingerprint configurations
+│
+├── extensions/                 # Browser extensions
+│   ├── proxy-auth/             # Proxy authentication extension
+│   ├── webrtc-control/         # WebRTC leak protection
+│   └── custom/                 # Custom extensions
+│
+├── extensionsManager/          # Extension management system
+│
+├── chromedriver/               # WebDriver binaries
+│
+│
+├── temp/                       # Profiles directory
+│   ├── profile_id/             # Uncompressed profile folder
+│   └── profile_id.zip          # Compressed profile
+│
+└── .gologin/                   # Orbita browser files
+    ├── browser/                # Browser binaries
+    │   └── orbita-browser-*/   # Orbita installation
+    └── profiles/               # Profile cache
 ```
 
 ## ⚙️ Profile Configuration
