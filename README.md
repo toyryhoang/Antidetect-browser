@@ -1,7 +1,6 @@
 # 🔒 Antidetect Browser - GoLogin Profile Manager
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Active-success.svg)
 
 A powerful tool for managing and creating GoLogin browser profiles with advanced antidetect features for social media marketing automation.
