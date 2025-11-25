@@ -193,9 +193,6 @@ If this project helps you, please consider donating to support development!
 - 🐛 Fix bugs and improve performance
 - ☕ Buy coffee for the developer 😊
 
-## 📝 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## ⚠️ Disclaimer
 
@@ -204,6 +201,7 @@ This tool is developed for educational purposes and legitimate automation. Users
 ## 📞 Contact
 
 - **GitHub**: [@toyryhoang](https://github.com/toyryhoang)
+- **Telegram**: [@zhnaoalda](https://t.me/zhnaoalda)
 - **Project Link**: [https://github.com/toyryhoang/Antidetect-browser](https://github.com/toyryhoang/Antidetect-browser)
 
 ## 🌟 Roadmap
