@@ -58,13 +58,24 @@ pip install botocore==1.32.7
 
 ### Step 3: Download Orbita Browser
 
-Run the following command to automatically download and install Orbita Browser:
+Download Orbita Browser from Google Drive:
 
-```bash
-python generator.py
+🔗 **Download Link**: [https://drive.google.com/drive/folders/1tBw4Xe6sW_f-aIqccV0qsmYKYSLznghI?usp=sharing](https://drive.google.com/drive/folders/1tBw4Xe6sW_f-aIqccV0qsmYKYSLznghI?usp=sharing)
+
+**Installation Instructions:**
+
+1. Download the Orbita Browser file from the Google Drive link above
+2. Unzip the downloaded file
+3. Create a `.gologin/browser/` folder in the project root directory (if not already there)
+4. Copy the `orbita-browser-*` folder to `.gologin/browser/`
+5. The final folder structure will be as follows:
 ```
-
-Browser will be installed in the `.gologin/browser/` directory
+.gologin/
+└── browser/
+└── orbita-browser-{version}/
+├── chrome.exe (Windows)
+└── ... (other files)
+```
 
 ### Step 4: Check the installation
 
