@@ -65,16 +65,11 @@ Download Orbita Browser from Google Drive:
 **Installation Instructions:**
 
 1. Download the Orbita Browser file from the Google Drive link above
-2. Unzip the downloaded file
-3. Create a `.gologin/browser/` folder in the project root directory (if not already there)
-4. Copy the `orbita-browser-*` folder to `.gologin/browser/`
-5. The final folder structure will be as follows:
+2. Copy folder to project
+3. The final folder structure will be as follows:
 ```
-.gologin/
-└── browser/
-└── orbita-browser-{version}/
-├── chrome.exe (Windows)
-└── ... (other files)
+Antidetect-browser/
+└── .gologin/  
 ```
 
 ### Step 4: Check the installation
