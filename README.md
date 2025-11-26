@@ -22,21 +22,78 @@ A powerful tool for managing and creating GoLogin browser profiles with advanced
 Python 3.8+
 selenium
 requests
+psutil
+boto3
 ```
 
 ## 🚀 Installation
 
+### Step 1: Clone Repository
+
 ```bash
-# Clone the repository
 git clone https://github.com/toyryhoang/Antidetect-browser.git
 cd Antidetect-browser
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Download Orbita Browser (if not already installed)
-python generator.py
 ```
+
+### Step 2: Install Python Dependencies
+
+#### Method 1: Install from requirements.txt (Recommended)
+
+```bash
+pip install -r requirements.txt
+```
+
+#### Method 2: Manually install each package
+
+```bash
+# Core libraries
+pip install selenium==4.15.2
+pip install requests==2.31.0
+pip install psutil==5.9.6
+
+# Cloud storage (Cloudflare R2)
+pip install boto3==1.29.7
+pip install botocore==1.32.7
+```
+
+### Step 3: Download Orbita Browser
+
+Download Orbita Browser from Google Drive:
+
+🔗 **Download Link**: [https://drive.google.com/drive/folders/1tBw4Xe6sW_f-aIqccV0qsmYKYSLznghI?usp=sharing](https://drive.google.com/drive/folders/1tBw4Xe6sW_f-aIqccV0qsmYKYSLznghI?usp=sharing)
+
+**Installation Instructions:**
+
+1. Download the Orbita Browser file from the Google Drive link above
+2. Copy folder to project
+3. The final folder structure will be as follows:
+```
+Antidetect-browser/
+└── .gologin/  
+```
+
+### Step 4: Check the installation
+
+```python
+# Check installed libraries
+python -c "import selenium; import requests; import psutil; import boto3; print('All libraries installed successfully!')"
+```
+
+### Library details
+
+| Package | Version | Description |
+|---------|---------|-------|
+| **selenium** | 4.15.2+ | Automatic browser control |
+| **requests** | 2.31.0+ | HTTP requests for API calls |
+| **psutil** | 5.9.6+ | Process management and system monitoring |
+| **boto3** | 1.29.7+ | AWS SDK for Cloudflare R2 storage |
+| **botocore** | 1.32.7+ | Core library for boto3 |
+
+### Installation notes
+
+- **ChromeDriver**: Will automatically download the appropriate version of Orbita
+- **Fonts**: Windows fonts will automatically copy from the `fonts.json` folder
+- **Extensions**: The necessary extensions are available in the `extensions/` folder
 
 ## 💻 Usage
 

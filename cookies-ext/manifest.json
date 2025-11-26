@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "Gologin",
+  "version": "0.5.1",
+  "description": "",
+  "permissions": [
+    "contextMenus",
+    "cookies",
+    "clipboardRead",
+    "management",
+    "notifications",
+    "privacy",
+    "storage",
+    "tabs",
+    "webNavigation",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["conf.js", "background.js"]
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "commands": {
+    "humanTyping": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac":  "Alt+Shift+F"
+      },
+      "description": "Paste like typing"
+    }
+  },
+  "web_accessible_resources": ["*"]
+}
